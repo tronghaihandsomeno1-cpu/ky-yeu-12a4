@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173d35">
+  <meta name="description" content="Thư mời kỷ yếu lớp 12A4 — một ngày để nhớ, một thời để thương.">
+  <title>12A4 — Một thời để nhớ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark">12</span><span>CLASS OF <b>2026</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">☰</button>
+    <nav id="mainNav">
+      <a href="#loi-moi">Lời mời</a><a href="#hanh-trinh">Kỷ niệm</a><a href="#loi-chuc">Lời chúc</a><a href="#xac-nhan" class="nav-cta">Xác nhận tham dự ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE LAST CHAPTER · 2026</p>
+        <h1>Một thời<br><em>để nhớ.</em></h1>
+        <p class="hero-sub">Có những năm tháng đi qua rồi mới biết, đó là thanh xuân. Và có những cuộc gặp gỡ, chỉ cần nhớ lại thôi cũng đủ thấy lòng dịu dàng.</p>
+        <a class="button button-light" href="#loi-moi">Mở lời mời <span>↘</span></a>
+        <div class="hero-note"><span class="tiny-star">✳</span> MỘT LỜI HẸN CỦA 12A4</div>
+      </div>
+      <div class="hero-art">
+        <div class="photo-frame photo-main">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1100&q=85" alt="Nhóm bạn cùng nhau lưu giữ kỷ niệm" onerror="this.style.display='none'">
+          <span class="photo-caption">together, always.</span>
+        </div>
+        <div class="photo-frame photo-small">
+          <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=600&q=85" alt="Khoảnh khắc tuổi học trò" onerror="this.style.display='none'">
+        </div>
+        <div class="sticker">12A4<br><small>FOREVER</small></div>
+        <div class="scribble">✳</div>
+      </div>
+      <div class="hero-bottom"><span>HÀNH TRÌNH 2023 — 2026</span><span>SCROLL TO REMEMBER ↓</span></div>
+    </section>
+
+    <section class="letter-section section-pad" id="loi-moi">
+      <div class="section-kicker">01 / A LETTER FOR YOU</div>
+      <div class="letter-layout">
+        <div class="letter-intro">
+          <p class="eyebrow dark">GỬI NHỮNG NGƯỜI BẠN THÂN THƯƠNG</p>
+          <h2>Một chiếc thư<br><em>gửi thanh xuân.</em></h2>
+          <p class="muted">Hãy chạm vào phong thư. Có một lời hẹn đang chờ bạn ở bên trong.</p>
+        </div>
+        <div class="envelope-wrap">
+          <button class="envelope" id="openLetter" aria-label="Mở phong thư">
+            <span class="envelope-back"></span>
+            <span class="letter-paper"><span class="letter-stamp">12A4</span><b>YOU ARE INVITED</b><small>20 · 12 · 2026</small></span>
+            <span class="envelope-flap"></span>
+            <span class="envelope-front"></span>
+            <span class="seal">✳</span>
+          </button>
+          <p class="tap-hint" id="tapHint">NHẤN ĐỂ MỞ THƯ</p>
+        </div>
+      </div>
+      <article class="letter-content" id="letterContent" aria-hidden="true">
+        <div class="letter-inner">
+          <div class="letter-topline"><span>THƯ MỜI THAM DỰ</span><span>12A4 · 2026</span></div>
+          <p class="script">Dear our favorite people,</p>
+          <h3>Chúng ta có một cuộc hẹn!</h3>
+          <p>Ba năm học có thể chỉ là một chặng đường trong cuộc đời, nhưng những tiếng cười, những lần cùng nhau cố gắng và cả những khoảnh khắc bình thường nhất sẽ luôn là điều đặc biệt.</p>
+          <p>Vì vậy, 12A4 trân trọng mời bạn trở về, cùng nhau lưu giữ những khung hình cuối cùng của thời học sinh và viết nên một ngày thật đáng nhớ.</p>
+          <div class="letter-signature">Thân mời,<br><b>Đào Trọng Hải</b></div>
+          <button class="text-button" id="closeLetter">Gấp thư lại ↑</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="event-section section-pad">
+      <div class="event-heading">
+        <div><div class="section-kicker light-kicker">02 / SAVE THE DATE</div><h2>Ngày mình<br><em>gặp lại nhau.</em></h2></div>
+        <p>Một ngày để trở về, để chụp thêm vài tấm ảnh, kể lại chuyện cũ và nói với nhau rằng: chúng ta đã có một thanh xuân thật đẹp.</p>
+      </div>
+      <div class="event-card">
+        <div class="event-date"><span class="date-day">20</span><span class="date-month">THÁNG 12 · 2026</span><span class="date-week">CHỦ NHẬT</span></div>
+        <div class="event-details">
+          <div><span class="detail-label">THỜI GIAN</span><b>09:30 SÁNG</b></div>
+          <div><span class="detail-label">SỰ KIỆN</span><b>BUỔI CHỤP ẢNH KỶ YẾU 12A4</b></div>
+          <div><span class="detail-label">NGƯỜI MỜI</span><b>ĐÀO TRỌNG HẢI</b></div>
+        </div>
+        <div class="event-flower">✳</div>
+      </div>
+      <div class="countdown-wrap">
+        <div><span class="countdown-label">COUNTING DOWN TO OUR DAY</span><p>Thời gian đang đưa chúng ta đến gần cuộc hẹn.</p></div>
+        <div class="countdown" id="countdown">
+          <div><b id="days">---</b><span>NGÀY</span></div><i>:</i>
+          <div><b id="hours">--</b><span>GIỜ</span></div><i>:</i>
+          <div><b id="minutes">--</b><span>PHÚT</span></div><i>:</i>
+          <div><b id="seconds">--</b><span>GIÂY</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories-section section-pad" id="hanh-trinh">
+      <div class="section-kicker">03 / LITTLE MOMENTS, BIG MEMORIES</div>
+      <div class="memories-heading"><h2>Những điều nhỏ bé<br><em>làm nên chúng ta.</em></h2><p>Không cần phải là những ngày đặc biệt. Đôi khi, chính những điều bình thường nhất lại trở thành kỷ niệm lâu bền nhất.</p></div>
+      <div class="memory-grid">
+        <figure class="memory-card memory-tall"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=85" alt="Bạn bè trong lớp học"><figcaption><span>01 — THE CLASSROOM</span><b>Nơi mọi câu chuyện bắt đầu.</b></figcaption></figure>
+        <figure class="memory-card"><img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=85" alt="Những người bạn"><figcaption><span>02 — OUR PEOPLE</span><b>Những người làm nên thanh xuân.</b></figcaption></figure>
+        <figure class="memory-card memory-offset"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=85" alt="Một ngày đến trường"><figcaption><span>03 — ONE MORE DAY</span><b>Ước gì được thêm một ngày.</b></figcaption></figure>
+      </div>
+      <p class="gallery-note">* Ảnh minh họa — bạn có thể thay bằng ảnh thật của lớp trong thư mục ảnh sau khi tải website lên.</p>
+    </section>
+
+    <section class="rsvp-section section-pad" id="xac-nhan">
+      <div class="rsvp-copy"><div class="section-kicker light-kicker">04 / WILL YOU BE THERE?</div><h2>Bạn sẽ đến<br><em>chứ?</em></h2><p>Sự có mặt của bạn sẽ làm ngày hôm ấy trở nên trọn vẹn hơn. Hãy để lại lời xác nhận nhé!</p><div class="rsvp-doodle">with love, 12A4 ✳</div></div>
+      <form class="rsvp-form" id="rsvpForm">
+        <label for="guestName">HỌ VÀ TÊN</label><input id="guestName" name="name" type="text" placeholder="Tên của bạn..." maxlength="60" required>
+        <label for="guestClass">LỚP / NHÓM</label><input id="guestClass" name="class" type="text" placeholder="Ví dụ: 12A4..." maxlength="30">
+        <label>BẠN CÓ THAM DỰ KHÔNG?</label>
+        <div class="choice-row"><label class="choice"><input type="radio" name="attendance" value="Có, mình sẽ đến" checked><span>♡ Có, mình sẽ đến</span></label><label class="choice"><input type="radio" name="attendance" value="Rất tiếc, mình bận"><span>Mình bận mất rồi</span></label></div>
+        <label for="guestNote">LỜI NHẮN (KHÔNG BẮT BUỘC)</label><textarea id="guestNote" name="note" rows="3" placeholder="Nhắn gửi một điều nhé..." maxlength="240"></textarea>
+        <button class="button button-dark" type="submit">Gửi xác nhận <span>↗</span></button>
+        <p class="form-feedback" id="rsvpFeedback" role="status"></p>
+        <small class="privacy-note">Thông tin được lưu trên trình duyệt của thiết bị đang sử dụng, chưa tự động gửi về ban tổ chức.</small>
+      </form>
+    </section>
+
+    <section class="wishes-section section-pad" id="loi-chuc">
+      <div class="section-kicker">05 / A WALL OF WISHES</div>
+      <div class="wishes-heading"><h2>Để lại một lời,<br><em>giữ lại một thương.</em></h2><p>Một câu chúc, một lời nhắn, hay đơn giản là một điều bạn muốn nói với 12A4.</p></div>
+      <form class="wish-form" id="wishForm"><input id="wishName" type="text" placeholder="Tên bạn" maxlength="40" required><input id="wishText" type="text" placeholder="Viết lời chúc ở đây..." maxlength="180" required><button type="submit" aria-label="Đăng lời chúc">Gửi lời chúc ↗</button></form>
+      <div class="wish-wall" id="wishWall"><div class="wish-card"><span>12A4 · 2026</span><p>“Mong rằng sau này, khi nhìn lại, chúng ta vẫn mỉm cười vì đã từng có nhau trong những năm tháng đẹp nhất.”</p><b>— Một người bạn</b></div><div class="wish-card wish-card-accent"><span>ONE LAST MEMORY</span><p>“Chúc tất cả chúng ta luôn can đảm, tử tế và rực rỡ trên con đường phía trước.”</p><b>— 12A4</b></div></div>
+      <p class="gallery-note">Lời chúc do khách gửi sẽ hiển thị trên thiết bị này. Muốn mọi người cùng xem một bảng lời chúc chung, cần kết nối thêm cơ sở dữ liệu.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top"><span class="brand-mark footer-mark">12</span><h2>We were here.<br><em>We were young.</em></h2><div class="footer-flower">✳</div></div>
+    <div class="footer-bottom"><span>CLASS 12A4 · YEARBOOK 2026</span><span>MADE WITH ♡ BY ĐÀO TRỌNG HẢI</span><button id="adminToggle" class="admin-link" type="button">Khu vực quản trị</button></div>
+  </footer>
+
+  <aside class="admin-panel" id="adminPanel" aria-hidden="true">
+    <div class="admin-head"><div><span class="section-kicker">LOCAL DASHBOARD</span><h3>Quản trị dữ liệu</h3></div><button id="adminClose" aria-label="Đóng">×</button></div>
+    <p class="admin-warning">Bảng quản trị chỉ xem dữ liệu được lưu trên trình duyệt hiện tại. Đây không phải hệ thống quản trị trực tuyến.</p>
+    <div class="admin-stats"><div><b id="rsvpCount">0</b><span>LƯỢT XÁC NHẬN</span></div><div><b id="wishCount">0</b><span>LỜI CHÚC</span></div></div>
+    <h4>Danh sách xác nhận</h4><div id="rsvpList" class="admin-list">Chưa có dữ liệu.</div>
+    <div class="admin-actions"><button id="exportData" type="button">Tải dữ liệu CSV</button><button id="clearData" type="button">Xóa dữ liệu trên máy này</button></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
